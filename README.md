@@ -5,5 +5,5 @@ Generating a 3D perspective view using information from a 2D raycasting "top-vie
 
 Low-Quality preview:
 
-https://github.com/achaval-tomas/3D-Visualization-from-2D-raycasting/assets/134091945/6d3bca30-2f38-4f70-bccd-ca255e153e87
+https://github.com/achaval-tomas/3D-Visualization-from-2D-raycasting/assets/134091945/39d0fccc-7d0f-4988-833a-a52122c49089
 
