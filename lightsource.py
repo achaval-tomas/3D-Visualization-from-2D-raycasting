@@ -29,8 +29,10 @@ class Source:
         self.pos = Vector2(x, y)
         self.setRays()
     
-    def updateFOV(self):
-        self.fov = 1 + (self.fov % 90)
+    def updateFOV(self, dir):
+        self.fov = dir + (self.fov % 90)
+        if self.fov == 0:
+            self.fov = 1
         self.setRays()
 
     def castall(self, screen, walls):

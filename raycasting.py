@@ -38,8 +38,10 @@ def keyActions():
     elif keys[pygame.K_w]:
         source.move(1)
     
-    if keys[pygame.K_f]:
-        source.updateFOV()
+    if keys[pygame.K_o]:
+        source.updateFOV(1)
+    if keys[pygame.K_p]:
+        source.updateFOV(-1)
 
 # render an individual wall piece
 def wallpiece(i, w, h, c):
